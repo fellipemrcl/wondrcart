@@ -1,6 +1,6 @@
 import { Product } from "@prisma/client";
 
-interface ProductsWithTotalprice extends Product {
+export interface ProductsWithTotalprice extends Product {
   totalPrice: number;
 }
 
