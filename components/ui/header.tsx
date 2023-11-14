@@ -15,6 +15,7 @@ import { Sheet, SheetContent, SheetHeader, SheetTrigger } from "./sheet";
 import { signIn, signOut, useSession } from "next-auth/react";
 import { Avatar, AvatarFallback, AvatarImage } from "./avatar";
 import { Separator } from "./separator";
+import Link from "next/link";
 
 const Header = () => {
   const { status, data } = useSession();
@@ -94,9 +95,11 @@ const Header = () => {
           </div>
         </SheetContent>
       </Sheet>
-      <h1 className="text-lg font-semibold">
-        <span className="text-primary">Wondr</span>Cart
-      </h1>
+      <Link href={"/"}>
+        <h1 className="text-lg font-semibold">
+          <span className="text-primary">Wondr</span>Cart
+        </h1>
+      </Link>
       <Button size={"icon"} variant={"outline"}>
         <ShoppingCartIcon />
       </Button>
