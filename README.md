@@ -1,4 +1,4 @@
-# WondrCart
+# WondrCart (em desenvolvimento)
 
 O WondrCart é um projeto de e-commerce especializado na venda de uma vasta gama de produtos de tecnologia. Com uma interface intuitiva e fácil de usar, o site oferece aos clientes uma experiência de compra simplificada, fornecendo informações detalhadas sobre os produtos, avaliações de usuários e opções de pagamento seguras. Com uma seleção cuidadosamente curada de produtos de alta qualidade, parcerias com marcas reconhecidas e um compromisso com a satisfação do cliente, o WondrCart visa ser o destino preferido para compras online de produtos de tecnologia, oferecendo conveniência, confiabilidade e inovação em cada transação.
 
