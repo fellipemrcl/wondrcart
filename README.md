@@ -11,6 +11,31 @@ O WondrCart é um projeto de e-commerce especializado na venda de uma vasta gama
 
 Em breve
 
+## Rodando o projeto localmente
+
+- Faça o clone do projeto: 
+
+```
+git clone git@github.com:fellipemrcl/wondrcart.git
+```
+
+- Navegue até a pasta recém criada:
+
+```
+cd wondrcart/
+```
+
+- Instale as dependências do projeto:
+
+```
+npm install
+```
+
+- Rode o projeto:
+
+```
+npm run dev
+````
 
 ## Funcionalidades
 
