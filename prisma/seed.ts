@@ -8,25 +8,25 @@ async function main() {
       data: {
         name: "Mouses",
         slug: "mouses",
-        imageUrl: "https://fsw-store.s3.sa-east-1.amazonaws.com/mouses.png",
+        imageUrl: "https://i.ibb.co/B6QrrGT/mouses-category.png",
       },
     });
 
     const mouses = [
       {
-        name: "Logitech MX Master 3s",
-        slug: "logitech-mx-master-3s",
+        name: "Redragon Tiger 2 M709",
+        slug: "Redragon Tiger 2 M709",
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent id malesuada elit, eget vulputate justo. Sed sollicitudin velit dolor, ut gravida odio iaculis a.\nNulla risus justo, tempor eu felis eu, efficitur pulvinar risus. Sed viverra, nisi id egestas convallis, massa lorem convallis magna, vel convallis mi turpis nec ante. Maecenas posuere lacus id gravida dignissim. Morbi sit amet rutrum ex. Duis sit amet sem orci. Morbi non nisl sed mauris mattis ullamcorper quis eget metus.\nUt pellentesque ornare erat, vitae blandit ex pulvinar sit amet. Ut pellentesque lorem at eros vestibulum lobortis. Proin bibendum est facilisis nulla tristique vestibulum. Etiam placerat tortor sit amet lacinia volutpat. Curabitur lectus turpis, faucibus vitae tortor in, lacinia tristique neque.",
         imageUrls: [
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/01_mx-master-3s.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/02_mx-master-3s.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/03_mx-master-3s.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/04_mx-master-3s.png",
+          "https://i.ibb.co/pdqHSBY/01-redragon-tiger-2-m709.png",
+          "https://i.ibb.co/8mk5sPb/02-redragon-tiger-2-m709.png",
+          "https://i.ibb.co/s1YG3dm/03-redragon-tiger-2-m709.png",
+          "https://i.ibb.co/ZVG68KW/04-redragon-tiger-2-m709.png",
         ],
-        basePrice: 650,
+        basePrice: 94,
         categoryId: mousesCategory.id,
-        discountPercentage: 10, // 10% discount
+        discountPercentage: 5,
       },
       {
         name: "Logitech Pro X Superlight",
