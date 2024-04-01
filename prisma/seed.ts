@@ -133,64 +133,61 @@ async function main() {
         discountPercentage: 20,
       },
       {
-        name: "Logitech Pop Keys",
-        slug: "logitech-pop-keys",
+        name: "Logitech G PRO X - Edição Shroud",
+        slug: "logitech-g-pro-x-edicao-shroud",
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent id malesuada elit, eget vulputate justo. Sed sollicitudin velit dolor, ut gravida odio iaculis a.\nNulla risus justo, tempor eu felis eu, efficitur pulvinar risus. Sed viverra, nisi id egestas convallis, massa lorem convallis magna, vel convallis mi turpis nec ante. Maecenas posuere lacus id gravida dignissim. Morbi sit amet rutrum ex. Duis sit amet sem orci. Morbi non nisl sed mauris mattis ullamcorper quis eget metus.\nUt pellentesque ornare erat, vitae blandit ex pulvinar sit amet. Ut pellentesque lorem at eros vestibulum lobortis. Proin bibendum est facilisis nulla tristique vestibulum. Etiam placerat tortor sit amet lacinia volutpat. Curabitur lectus turpis, faucibus vitae tortor in, lacinia tristique neque.",
         imageUrls: [
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/01_logi-pop-keys.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/02_logi-pop-keys.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/03_logi-pop-keys.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/04_logi-pop-keys.png",
+          "https://i.ibb.co/1QLGnWK/01-logitech-g-pro-wireless-shroud.png",
+          "https://i.ibb.co/7NJwjhH/02-logitech-teclado-shroud02.png",
         ],
-        basePrice: 440,
+        basePrice: 899.91,
         categoryId: keyboardsCategory.id,
-        discountPercentage: 5, // 10% discount
+        discountPercentage: 20,
       },
       {
-        name: "Logitech MX Mechanical",
-        slug: "logitech-mx-mechanical",
+        name: "Logitech G915 TKL",
+        slug: "logitech-g915-tkl",
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent id malesuada elit, eget vulputate justo. Sed sollicitudin velit dolor, ut gravida odio iaculis a.\nNulla risus justo, tempor eu felis eu, efficitur pulvinar risus. Sed viverra, nisi id egestas convallis, massa lorem convallis magna, vel convallis mi turpis nec ante. Maecenas posuere lacus id gravida dignissim. Morbi sit amet rutrum ex. Duis sit amet sem orci. Morbi non nisl sed mauris mattis ullamcorper quis eget metus.\nUt pellentesque ornare erat, vitae blandit ex pulvinar sit amet. Ut pellentesque lorem at eros vestibulum lobortis. Proin bibendum est facilisis nulla tristique vestibulum. Etiam placerat tortor sit amet lacinia volutpat. Curabitur lectus turpis, faucibus vitae tortor in, lacinia tristique neque.",
         imageUrls: [
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/01_logi-mx-mechanical.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/02_logi-mx-mechanical.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/03_logi-mx-mechanical.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/04_logi-mx-mechanical.png",
+          "https://i.ibb.co/9t92JMc/01-logitech-g-915.png",
+          "https://i.ibb.co/DWdMdFG/02-logitech-g-915.png",
+          "https://i.ibb.co/p4G2rFN/03-logitech-g-915.png",
+          "https://i.ibb.co/W3ZmKnf/04-logitech-g-915.png",
         ],
-        basePrice: 700,
+        basePrice: 1169.91,
         categoryId: keyboardsCategory.id,
-        discountPercentage: 15, // 10% discount
+        discountPercentage: 20,
       },
       {
-        name: "Epomaker TH80",
-        slug: "epomaker-th80",
+        name: "Logitech G213",
+        slug: "logitech-g213",
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent id malesuada elit, eget vulputate justo. Sed sollicitudin velit dolor, ut gravida odio iaculis a.\nNulla risus justo, tempor eu felis eu, efficitur pulvinar risus. Sed viverra, nisi id egestas convallis, massa lorem convallis magna, vel convallis mi turpis nec ante. Maecenas posuere lacus id gravida dignissim. Morbi sit amet rutrum ex. Duis sit amet sem orci. Morbi non nisl sed mauris mattis ullamcorper quis eget metus.\nUt pellentesque ornare erat, vitae blandit ex pulvinar sit amet. Ut pellentesque lorem at eros vestibulum lobortis. Proin bibendum est facilisis nulla tristique vestibulum. Etiam placerat tortor sit amet lacinia volutpat. Curabitur lectus turpis, faucibus vitae tortor in, lacinia tristique neque.",
         imageUrls: [
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/01_epomaker-th80.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/02_epomaker-th80.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/03_epomaker-th80.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/04_epomaker-th80.png",
+          "https://i.ibb.co/ZzydXGz/01-logitech-g213.png",
+          "https://i.ibb.co/qxS18R8/02-logitech-g213.png",
+          "https://i.ibb.co/3TTDwXJ/03-logitech-g213.png",
+          "https://i.ibb.co/5kwXJs0/04-logitech-g213.png",
         ],
-        basePrice: 500,
+        basePrice: 449.91,
         categoryId: keyboardsCategory.id,
-        discountPercentage: 5, // 10% discount
+        discountPercentage: 0,
       },
       {
-        name: "Redragon Gamer Ashe",
-        slug: "redragon-gamer-ashe",
+        name: "Logitech G G815 Tactile",
+        slug: "logitech-g-g815-tactile",
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent id malesuada elit, eget vulputate justo. Sed sollicitudin velit dolor, ut gravida odio iaculis a.\nNulla risus justo, tempor eu felis eu, efficitur pulvinar risus. Sed viverra, nisi id egestas convallis, massa lorem convallis magna, vel convallis mi turpis nec ante. Maecenas posuere lacus id gravida dignissim. Morbi sit amet rutrum ex. Duis sit amet sem orci. Morbi non nisl sed mauris mattis ullamcorper quis eget metus.\nUt pellentesque ornare erat, vitae blandit ex pulvinar sit amet. Ut pellentesque lorem at eros vestibulum lobortis. Proin bibendum est facilisis nulla tristique vestibulum. Etiam placerat tortor sit amet lacinia volutpat. Curabitur lectus turpis, faucibus vitae tortor in, lacinia tristique neque.",
         imageUrls: [
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/01_redragon-gamer-ashe.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/02_redragon-gamer-ashe.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/03_redragon-gamer-ashe.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/04_redragon-gamer-ashe.png",
+          "https://i.ibb.co/0qrt6Dx/01-logitech-g-815-tactile.png",
+          "https://i.ibb.co/fxCXT5H/02-logitech-g-815-tactile.png",
+          "https://i.ibb.co/Bff4nx2/03-logitech-g-815-tactile.png",
         ],
-        basePrice: 400,
+        basePrice: 989.91,
         categoryId: keyboardsCategory.id,
-        discountPercentage: 25, // 10% discount
+        discountPercentage: 0,
       },
     ];
 
@@ -202,7 +199,7 @@ async function main() {
       data: {
         name: "Fones",
         slug: "headphones",
-        imageUrl: "https://fsw-store.s3.sa-east-1.amazonaws.com/headphones.png",
+        imageUrl: "https://i.ibb.co/tZF8mss/headset-category.png",
       },
     });
 
