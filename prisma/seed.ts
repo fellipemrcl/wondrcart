@@ -15,7 +15,7 @@ async function main() {
     const mouses = [
       {
         name: "Redragon Tiger 2 M709",
-        slug: "Redragon Tiger 2 M709",
+        slug: "redragon-tiger-2-m709",
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent id malesuada elit, eget vulputate justo. Sed sollicitudin velit dolor, ut gravida odio iaculis a.\nNulla risus justo, tempor eu felis eu, efficitur pulvinar risus. Sed viverra, nisi id egestas convallis, massa lorem convallis magna, vel convallis mi turpis nec ante. Maecenas posuere lacus id gravida dignissim. Morbi sit amet rutrum ex. Duis sit amet sem orci. Morbi non nisl sed mauris mattis ullamcorper quis eget metus.\nUt pellentesque ornare erat, vitae blandit ex pulvinar sit amet. Ut pellentesque lorem at eros vestibulum lobortis. Proin bibendum est facilisis nulla tristique vestibulum. Etiam placerat tortor sit amet lacinia volutpat. Curabitur lectus turpis, faucibus vitae tortor in, lacinia tristique neque.",
         imageUrls: [
@@ -29,64 +29,79 @@ async function main() {
         discountPercentage: 5,
       },
       {
-        name: "Logitech Pro X Superlight",
-        slug: "logitech-pro-x-superlight",
+        name: "Redragon Brancoala B703",
+        slug: "redragon-brancoala-b703",
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent id malesuada elit, eget vulputate justo. Sed sollicitudin velit dolor, ut gravida odio iaculis a.\nNulla risus justo, tempor eu felis eu, efficitur pulvinar risus. Sed viverra, nisi id egestas convallis, massa lorem convallis magna, vel convallis mi turpis nec ante. Maecenas posuere lacus id gravida dignissim. Morbi sit amet rutrum ex. Duis sit amet sem orci. Morbi non nisl sed mauris mattis ullamcorper quis eget metus.\nUt pellentesque ornare erat, vitae blandit ex pulvinar sit amet. Ut pellentesque lorem at eros vestibulum lobortis. Proin bibendum est facilisis nulla tristique vestibulum. Etiam placerat tortor sit amet lacinia volutpat. Curabitur lectus turpis, faucibus vitae tortor in, lacinia tristique neque.",
         imageUrls: [
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/01_logi-superlight.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/02_logi-superlight.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/03_logi-superlight.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/04_logi-superlight.png",
+          "https://i.ibb.co/c3sxhGj/01-redragon-brancoala-b703.png",
+          "https://i.ibb.co/gTgCMY4/02-redragon-brancoala-b703.png",
+          "https://i.ibb.co/44KYBwB/03-redragon-brancoala-b703.png",
+          "https://i.ibb.co/MMP5kPW/04-redragon-brancoala-b703.png",
         ],
-        basePrice: 750,
+        basePrice: 118.99,
         categoryId: mousesCategory.id,
-        discountPercentage: 5, // 5% discount
+        discountPercentage: 10,
       },
       {
-        name: "Logitech G305 Lightspeed",
-        slug: "logitech-g305-lightspeed",
+        name: "Redragon Inquisitor Basic M608",
+        slug: "redragon-inquisitor-basic-m608",
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent id malesuada elit, eget vulputate justo. Sed sollicitudin velit dolor, ut gravida odio iaculis a.\nNulla risus justo, tempor eu felis eu, efficitur pulvinar risus. Sed viverra, nisi id egestas convallis, massa lorem convallis magna, vel convallis mi turpis nec ante. Maecenas posuere lacus id gravida dignissim. Morbi sit amet rutrum ex. Duis sit amet sem orci. Morbi non nisl sed mauris mattis ullamcorper quis eget metus.\nUt pellentesque ornare erat, vitae blandit ex pulvinar sit amet. Ut pellentesque lorem at eros vestibulum lobortis. Proin bibendum est facilisis nulla tristique vestibulum. Etiam placerat tortor sit amet lacinia volutpat. Curabitur lectus turpis, faucibus vitae tortor in, lacinia tristique neque.",
         imageUrls: [
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/01_logi-lightspeed.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/02_logi-lightspeed.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/03_logi-lightspeed.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/04_logi-lightspeed.png",
+          "https://i.ibb.co/SJbhrpN/01-redragon-inquisitor-basic-m608.png",
+          "https://i.ibb.co/SrCn0dt/02-redragon-inquisitor-basic-m608.png",
+          "https://i.ibb.co/XxPn5c9/03-redragon-inquisitor-basic-m608.png",
+          "https://i.ibb.co/74dxcbj/04-redragon-inquisitor-basic-m608.png",
         ],
-        basePrice: 300,
+        basePrice: 79.99,
         categoryId: mousesCategory.id,
-        discountPercentage: 15, // 15% discount
+        discountPercentage: 5,
       },
       {
-        name: "Hyperx Pulsefire Dart",
-        slug: "hyperx-pulsefire-dart",
+        name: "Redragon Storm RGB",
+        slug: "redragon-storm-rgb",
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent id malesuada elit, eget vulputate justo. Sed sollicitudin velit dolor, ut gravida odio iaculis a.\nNulla risus justo, tempor eu felis eu, efficitur pulvinar risus. Sed viverra, nisi id egestas convallis, massa lorem convallis magna, vel convallis mi turpis nec ante. Maecenas posuere lacus id gravida dignissim. Morbi sit amet rutrum ex. Duis sit amet sem orci. Morbi non nisl sed mauris mattis ullamcorper quis eget metus.\nUt pellentesque ornare erat, vitae blandit ex pulvinar sit amet. Ut pellentesque lorem at eros vestibulum lobortis. Proin bibendum est facilisis nulla tristique vestibulum. Etiam placerat tortor sit amet lacinia volutpat. Curabitur lectus turpis, faucibus vitae tortor in, lacinia tristique neque.",
         imageUrls: [
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/01_hyperx-dart.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/02_hyperx-dart.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/03_hyperx-dart.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/04_hyperx-dart.png",
+          "https://i.ibb.co/D9QxX0Z/01-redragon-storm-rgb-rosa-com-branco.png",
+          "https://i.ibb.co/wBskFg9/02-redragon-storm-rgb-rosa-com-branco.png",
+          "https://i.ibb.co/k5Kkt2n/03-redragon-storm-rgb-rosa-com-branco.png",
+          "https://i.ibb.co/CPNmzKb/04-redragon-storm-rgb-rosa-com-branco.png",
         ],
-        basePrice: 600,
+        basePrice: 136.99,
         categoryId: mousesCategory.id,
-        discountPercentage: 10, // 10% discount
+        discountPercentage: 10,
       },
       {
-        name: "Razer Deathadder V2 Pro",
-        slug: "razer-deathadder-v2-pro",
+        name: "Logitech G Pro X Superlight 2",
+        slug: "logitech-g-pro-x-superlight-2",
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent id malesuada elit, eget vulputate justo. Sed sollicitudin velit dolor, ut gravida odio iaculis a.\nNulla risus justo, tempor eu felis eu, efficitur pulvinar risus. Sed viverra, nisi id egestas convallis, massa lorem convallis magna, vel convallis mi turpis nec ante. Maecenas posuere lacus id gravida dignissim. Morbi sit amet rutrum ex. Duis sit amet sem orci. Morbi non nisl sed mauris mattis ullamcorper quis eget metus.\nUt pellentesque ornare erat, vitae blandit ex pulvinar sit amet. Ut pellentesque lorem at eros vestibulum lobortis. Proin bibendum est facilisis nulla tristique vestibulum. Etiam placerat tortor sit amet lacinia volutpat. Curabitur lectus turpis, faucibus vitae tortor in, lacinia tristique neque.",
         imageUrls: [
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/01_razer-deathadder.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/02_razer-deathadder.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/03_razer-deathadder.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/04_razer-deathadder.png",
+          "https://i.ibb.co/q9kb5KN/01-logitech-g-pro-x-superlight-2-magenta.png",
+          "https://i.ibb.co/0XvQTM4/02-logitech-g-pro-x-superlight-2-magenta.png",
+          "https://i.ibb.co/w4SBk0q/03-logitech-g-pro-x-superlight-2-magenta.png",
+          "https://i.ibb.co/HC8KYMK/04-logitech-g-pro-x-superlight-2-magenta.png",
         ],
-        basePrice: 350,
+        basePrice: 809.91,
         categoryId: mousesCategory.id,
-        discountPercentage: 0,
+        discountPercentage: 20,
+      },
+      {
+        name: "Logitech G502 Lightspeed",
+        slug: "logitech-g502-lightspeed",
+        description:
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent id malesuada elit, eget vulputate justo. Sed sollicitudin velit dolor, ut gravida odio iaculis a.\nNulla risus justo, tempor eu felis eu, efficitur pulvinar risus. Sed viverra, nisi id egestas convallis, massa lorem convallis magna, vel convallis mi turpis nec ante. Maecenas posuere lacus id gravida dignissim. Morbi sit amet rutrum ex. Duis sit amet sem orci. Morbi non nisl sed mauris mattis ullamcorper quis eget metus.\nUt pellentesque ornare erat, vitae blandit ex pulvinar sit amet. Ut pellentesque lorem at eros vestibulum lobortis. Proin bibendum est facilisis nulla tristique vestibulum. Etiam placerat tortor sit amet lacinia volutpat. Curabitur lectus turpis, faucibus vitae tortor in, lacinia tristique neque.",
+        imageUrls: [
+          "https://i.ibb.co/zHCqgMS/01-logitech-g502-lightspeed.png",
+          "https://i.ibb.co/R40pphz/02-logitech-g502-lightspeed.png",
+          "https://i.ibb.co/FHM0p9c/03-logitech-g502-lightspeed.png",
+          "https://i.ibb.co/rdFS3FK/04-logitech-g502-lightspeed.png",
+        ],
+        basePrice: 809.91,
+        categoryId: mousesCategory.id,
+        discountPercentage: 20,
       },
     ];
 
@@ -98,25 +113,24 @@ async function main() {
       data: {
         name: "Teclados",
         slug: "keyboards",
-        imageUrl: "https://fsw-store.s3.sa-east-1.amazonaws.com/keyboards.png",
+        imageUrl: "https://i.ibb.co/183ZNQ9/keyboards-category.png",
       },
     });
 
     const keyboards = [
       {
-        name: "Logitech MX Keys S",
-        slug: "logitech-mx-keys-s",
+        name: "Logitech G512 Carbon",
+        slug: "logitech-g512-carbon",
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent id malesuada elit, eget vulputate justo. Sed sollicitudin velit dolor, ut gravida odio iaculis a.\nNulla risus justo, tempor eu felis eu, efficitur pulvinar risus. Sed viverra, nisi id egestas convallis, massa lorem convallis magna, vel convallis mi turpis nec ante. Maecenas posuere lacus id gravida dignissim. Morbi sit amet rutrum ex. Duis sit amet sem orci. Morbi non nisl sed mauris mattis ullamcorper quis eget metus.\nUt pellentesque ornare erat, vitae blandit ex pulvinar sit amet. Ut pellentesque lorem at eros vestibulum lobortis. Proin bibendum est facilisis nulla tristique vestibulum. Etiam placerat tortor sit amet lacinia volutpat. Curabitur lectus turpis, faucibus vitae tortor in, lacinia tristique neque.",
         imageUrls: [
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/01_logi-mx-keys-s.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/02_logi-mx-keys-s.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/03_logi-mx-keys-s.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/04_logi-mx-keys-s.png",
+          "https://i.ibb.co/0Xgp1sb/01-logitech-g512-carbon.png",
+          "https://i.ibb.co/dD9pMFV/02-logitech-g512-carbon.png",
+          "https://i.ibb.co/TK7cfbY/03-logitech-g512-carbon.png",
         ],
-        basePrice: 750,
+        basePrice: 759.90,
         categoryId: keyboardsCategory.id,
-        discountPercentage: 10, // 10% discount
+        discountPercentage: 20,
       },
       {
         name: "Logitech Pop Keys",
