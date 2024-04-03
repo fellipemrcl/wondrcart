@@ -205,94 +205,88 @@ async function main() {
 
     const headphones = [
       {
-        name: "Logitech Zone Vibe 100",
-        slug: "logitech-zone-vibe-100",
+        name: "Headset Gamer Sem Fio Logitech G435 LIGHTSPEED - Azul",
+        slug: "headset-gamer-sem-fio-logitech-g435-lightspeed-azul",
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent id malesuada elit, eget vulputate justo. Sed sollicitudin velit dolor, ut gravida odio iaculis a.\nNulla risus justo, tempor eu felis eu, efficitur pulvinar risus. Sed viverra, nisi id egestas convallis, massa lorem convallis magna, vel convallis mi turpis nec ante. Maecenas posuere lacus id gravida dignissim. Morbi sit amet rutrum ex. Duis sit amet sem orci. Morbi non nisl sed mauris mattis ullamcorper quis eget metus.\nUt pellentesque ornare erat, vitae blandit ex pulvinar sit amet. Ut pellentesque lorem at eros vestibulum lobortis. Proin bibendum est facilisis nulla tristique vestibulum. Etiam placerat tortor sit amet lacinia volutpat. Curabitur lectus turpis, faucibus vitae tortor in, lacinia tristique neque.",
         imageUrls: [
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/01_logi-vibe.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/02_logi-vibe.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/03_logi-vibe.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/04_logi-vibe.png",
+          "https://i.ibb.co/GHJhwj8/01-logitech-g435-lightspeed.png",
+          "https://i.ibb.co/2hCK9ph/02-logitech-g435-lightspeed.png",
+          "https://i.ibb.co/tXd04hM/03-logitech-g435-lightspeed.png",
         ],
-        basePrice: 750,
+        basePrice: 629.91,
         categoryId: headphonesCategory.id,
-        discountPercentage: 10, // 10% discount
+        discountPercentage: 10,
       },
       {
-        name: "Logitech Pro X 2 Lightspeed",
-        slug: "logitech-pro-x-2-lightspeed",
+        name: "Headset Sem Fio Logitech G Astro A30 - Azul - PS",
+        slug: "headset-sem-fio-logitech-g-astro-a30-azul-ps",
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent id malesuada elit, eget vulputate justo. Sed sollicitudin velit dolor, ut gravida odio iaculis a.\nNulla risus justo, tempor eu felis eu, efficitur pulvinar risus. Sed viverra, nisi id egestas convallis, massa lorem convallis magna, vel convallis mi turpis nec ante. Maecenas posuere lacus id gravida dignissim. Morbi sit amet rutrum ex. Duis sit amet sem orci. Morbi non nisl sed mauris mattis ullamcorper quis eget metus.\nUt pellentesque ornare erat, vitae blandit ex pulvinar sit amet. Ut pellentesque lorem at eros vestibulum lobortis. Proin bibendum est facilisis nulla tristique vestibulum. Etiam placerat tortor sit amet lacinia volutpat. Curabitur lectus turpis, faucibus vitae tortor in, lacinia tristique neque.",
         imageUrls: [
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/01_logi-lightspeed-phone.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/02_logi-lightspeed-phone.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/03_logi-lightspeed-phone.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/04_logi-lightspeed-phone.png",
+          "https://i.ibb.co/3k6Vdm9/01-logitech-g-astro-a30.png",
+          "https://i.ibb.co/W26g1kk/02-logitech-g-astro-a30.png",
+          "https://i.ibb.co/DY1k1BN/03-logitech-g-astro-a30.png",
         ],
-        basePrice: 1200,
+        basePrice: 1799.91,
         categoryId: headphonesCategory.id,
-        discountPercentage: 5, // 10% discount
+        discountPercentage: 20,
       },
       {
-        name: "Logitech Astro A30",
-        slug: "logitech-astro-a30",
+        name: "Headset Gamer Logitech G PRO X - Edição Oficial League of Legends",
+        slug: "headset-gamer-logitech-g-pro-x-edicao-oficial-league-of-legends",
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent id malesuada elit, eget vulputate justo. Sed sollicitudin velit dolor, ut gravida odio iaculis a.\nNulla risus justo, tempor eu felis eu, efficitur pulvinar risus. Sed viverra, nisi id egestas convallis, massa lorem convallis magna, vel convallis mi turpis nec ante. Maecenas posuere lacus id gravida dignissim. Morbi sit amet rutrum ex. Duis sit amet sem orci. Morbi non nisl sed mauris mattis ullamcorper quis eget metus.\nUt pellentesque ornare erat, vitae blandit ex pulvinar sit amet. Ut pellentesque lorem at eros vestibulum lobortis. Proin bibendum est facilisis nulla tristique vestibulum. Etiam placerat tortor sit amet lacinia volutpat. Curabitur lectus turpis, faucibus vitae tortor in, lacinia tristique neque.",
         imageUrls: [
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/01_logi-astro-a30.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/02_logi-astro-a30.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/03_logi-astro-a30.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/04_logi-astro-a30.png",
+          "https://i.ibb.co/55gX96V/01-logitech-g-pro-x-edicao-lol.png",
+          "https://i.ibb.co/TBGQmFP/02-logitech-g-pro-x-edicao-lol.png",
+          "https://i.ibb.co/wY0J2J1/03-logitech-g-pro-x-edicao-lol.png",
         ],
-        basePrice: 1500,
+        basePrice: 899.91,
         categoryId: headphonesCategory.id,
-        discountPercentage: 15, // 10% discount
+        discountPercentage: 10,
       },
       {
-        name: "Logitech Zone Wired Earbuds",
-        slug: "logitech-zone-wired-earbuds",
+        name: "Headset Com Fio ASTRO A10 Gaming Gen 2 - Cinza - PC",
+        slug: "headset-com-fio-astro-a10-gaming-gen-2-cinza-pc",
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent id malesuada elit, eget vulputate justo. Sed sollicitudin velit dolor, ut gravida odio iaculis a.\nNulla risus justo, tempor eu felis eu, efficitur pulvinar risus. Sed viverra, nisi id egestas convallis, massa lorem convallis magna, vel convallis mi turpis nec ante. Maecenas posuere lacus id gravida dignissim. Morbi sit amet rutrum ex. Duis sit amet sem orci. Morbi non nisl sed mauris mattis ullamcorper quis eget metus.\nUt pellentesque ornare erat, vitae blandit ex pulvinar sit amet. Ut pellentesque lorem at eros vestibulum lobortis. Proin bibendum est facilisis nulla tristique vestibulum. Etiam placerat tortor sit amet lacinia volutpat. Curabitur lectus turpis, faucibus vitae tortor in, lacinia tristique neque.",
         imageUrls: [
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/01_logi-earbuds.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/02_logi-earbuds.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/03_logi-earbuds.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/04_logi-earbuds.png",
+          "https://i.ibb.co/GQ5Mw82/01-logitech-astro-a10-gen2.png",
+          "https://i.ibb.co/253Kqwc/02-logitech-astro-a10-gen2.png",
+          "https://i.ibb.co/zGrd7FK/03-logitech-astro-a10-gen2.png",
         ],
-        basePrice: 550,
+        basePrice: 449.91,
         categoryId: headphonesCategory.id,
-        discountPercentage: 5, // 10% discount
+        discountPercentage: 0,
       },
       {
-        name: "Hyperx Cloud Stinger 2",
-        slug: "hyperx-cloud-stinger-2",
+        name: "Headset Gamer Sem Fio Logitech G733 7.1 Dolby Surround - Lilás",
+        slug: "headset-gamer-sem-fio-logitech-g733-7-1-dolby-surround-lilas",
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent id malesuada elit, eget vulputate justo. Sed sollicitudin velit dolor, ut gravida odio iaculis a.\nNulla risus justo, tempor eu felis eu, efficitur pulvinar risus. Sed viverra, nisi id egestas convallis, massa lorem convallis magna, vel convallis mi turpis nec ante. Maecenas posuere lacus id gravida dignissim. Morbi sit amet rutrum ex. Duis sit amet sem orci. Morbi non nisl sed mauris mattis ullamcorper quis eget metus.\nUt pellentesque ornare erat, vitae blandit ex pulvinar sit amet. Ut pellentesque lorem at eros vestibulum lobortis. Proin bibendum est facilisis nulla tristique vestibulum. Etiam placerat tortor sit amet lacinia volutpat. Curabitur lectus turpis, faucibus vitae tortor in, lacinia tristique neque.",
         imageUrls: [
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/01_hyperx-stinger.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/02_hyperx-stinger.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/03_hyperx-stinger.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/04_hyperx-stinger.png",
+          "https://i.ibb.co/thBgtXN/01-logitech-g733.png",
+          "https://i.ibb.co/Jzv5qSQ/02-logitech-g733.png",
+          "https://i.ibb.co/nBVvtRZ/03-logitech-g733.png",
         ],
-        basePrice: 250,
+        basePrice: 989.91,
         categoryId: headphonesCategory.id,
-        discountPercentage: 0, // 10% discount
+        discountPercentage: 10,
       },
       {
-        name: "Razer Kraken X",
-        slug: "razer-kraken-x",
+        name: "Headset Gamer Logitech G432 7.1 Dolby Surround - Preto/Azul",
+        slug: "headset-gamer-logitech-g432-7-1-dolby-surround-preto-azul",
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent id malesuada elit, eget vulputate justo. Sed sollicitudin velit dolor, ut gravida odio iaculis a.\nNulla risus justo, tempor eu felis eu, efficitur pulvinar risus. Sed viverra, nisi id egestas convallis, massa lorem convallis magna, vel convallis mi turpis nec ante. Maecenas posuere lacus id gravida dignissim. Morbi sit amet rutrum ex. Duis sit amet sem orci. Morbi non nisl sed mauris mattis ullamcorper quis eget metus.\nUt pellentesque ornare erat, vitae blandit ex pulvinar sit amet. Ut pellentesque lorem at eros vestibulum lobortis. Proin bibendum est facilisis nulla tristique vestibulum. Etiam placerat tortor sit amet lacinia volutpat. Curabitur lectus turpis, faucibus vitae tortor in, lacinia tristique neque.",
         imageUrls: [
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/01_razer-kraken.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/02_razer-kraken.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/03_razer-kraken.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/04_razer-kraken.png",
+          "https://i.ibb.co/QKRYj0N/01-logitech-g432.png",
+          "https://i.ibb.co/yWNK3hm/02-logitech-g432.png",
+          "https://i.ibb.co/mJ849jF/03-logitech-g432.png",
         ],
-        basePrice: 200,
+        basePrice: 494.91,
         categoryId: headphonesCategory.id,
-        discountPercentage: 0, // 10% discount
+        discountPercentage: 0,
       },
     ];
 
@@ -304,100 +298,89 @@ async function main() {
       data: {
         name: "Mousepads",
         slug: "mousepads",
-        imageUrl: "https://fsw-store.s3.sa-east-1.amazonaws.com/mousepads.png",
+        imageUrl: "https://i.ibb.co/7zWy3Mg/mousepad-category.png",
       },
     });
 
     const mousepads = [
       {
-        name: "Logitech Powerplay",
-        slug: "logitech-powerplay",
+        name: "Mouse Pad Grande De Tecido Logitech G Social Mousepad - Branco",
+        slug: "mouse-pad-grande-de-tecido-logitech-g-social-mousepad-branco",
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent id malesuada elit, eget vulputate justo. Sed sollicitudin velit dolor, ut gravida odio iaculis a.\nNulla risus justo, tempor eu felis eu, efficitur pulvinar risus. Sed viverra, nisi id egestas convallis, massa lorem convallis magna, vel convallis mi turpis nec ante. Maecenas posuere lacus id gravida dignissim. Morbi sit amet rutrum ex. Duis sit amet sem orci. Morbi non nisl sed mauris mattis ullamcorper quis eget metus.\nUt pellentesque ornare erat, vitae blandit ex pulvinar sit amet. Ut pellentesque lorem at eros vestibulum lobortis. Proin bibendum est facilisis nulla tristique vestibulum. Etiam placerat tortor sit amet lacinia volutpat. Curabitur lectus turpis, faucibus vitae tortor in, lacinia tristique neque.",
         imageUrls: [
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/01_logi-powerplay.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/02_logi-powerplay.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/03_logi-powerplay.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/04_logi-powerplay.png",
+          "https://i.ibb.co/TMFTqnT/01-logitech-mousepad-g-social.png",
+          "https://i.ibb.co/YWWcvCW/02-logitech-mousepad-g-social.png",
         ],
-        basePrice: 950,
+        basePrice: 237.91,
         categoryId: mousepadsCategory.id,
-        discountPercentage: 10, // 10% discount
+        discountPercentage: 10,
       },
       {
-        name: "Logitech Desk Mat",
-        slug: "logitech-desk-mat",
+        name: "Mouse Pad Extra Grande de Tecido para Jogo Logitech G840 Edição Shroud",
+        slug: "mouse-pad-extra-grande-de-tecido-para-jogo-logitech-g840-edicao-shroud",
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent id malesuada elit, eget vulputate justo. Sed sollicitudin velit dolor, ut gravida odio iaculis a.\nNulla risus justo, tempor eu felis eu, efficitur pulvinar risus. Sed viverra, nisi id egestas convallis, massa lorem convallis magna, vel convallis mi turpis nec ante. Maecenas posuere lacus id gravida dignissim. Morbi sit amet rutrum ex. Duis sit amet sem orci. Morbi non nisl sed mauris mattis ullamcorper quis eget metus.\nUt pellentesque ornare erat, vitae blandit ex pulvinar sit amet. Ut pellentesque lorem at eros vestibulum lobortis. Proin bibendum est facilisis nulla tristique vestibulum. Etiam placerat tortor sit amet lacinia volutpat. Curabitur lectus turpis, faucibus vitae tortor in, lacinia tristique neque.",
         imageUrls: [
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/01_logi-desk-mat.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/02_logi-desk-mat.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/03_logi-desk-mat.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/04_logi-desk-mat.png",
+          "https://i.ibb.co/L60g74Q/01-logitech-mousepad-g840.png",
+          "https://i.ibb.co/GMXfmK9/02-logitech-mousepad-g840.png",
         ],
-        basePrice: 150,
+        basePrice: 287.91,
         categoryId: mousepadsCategory.id,
-        discountPercentage: 0, // 10% discount
+        discountPercentage: 10,
       },
       {
-        name: "Logitech G740",
-        slug: "logitech-g740",
+        name: "Mouse Pad Grande De Tecido Logitech G Social Mousepad - Verde",
+        slug: "mouse-pad-grande-de-tecido-logitech-g-social-mousepad-verde",
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent id malesuada elit, eget vulputate justo. Sed sollicitudin velit dolor, ut gravida odio iaculis a.\nNulla risus justo, tempor eu felis eu, efficitur pulvinar risus. Sed viverra, nisi id egestas convallis, massa lorem convallis magna, vel convallis mi turpis nec ante. Maecenas posuere lacus id gravida dignissim. Morbi sit amet rutrum ex. Duis sit amet sem orci. Morbi non nisl sed mauris mattis ullamcorper quis eget metus.\nUt pellentesque ornare erat, vitae blandit ex pulvinar sit amet. Ut pellentesque lorem at eros vestibulum lobortis. Proin bibendum est facilisis nulla tristique vestibulum. Etiam placerat tortor sit amet lacinia volutpat. Curabitur lectus turpis, faucibus vitae tortor in, lacinia tristique neque.",
         imageUrls: [
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/01_logi-g740.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/02_logi-g740.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/03_logi-g740.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/04_logi-g740.png",
+          "https://i.ibb.co/zNP15gJ/01-logitech-mousepad-g-social-verde.png",
+          "https://i.ibb.co/kBpqdTP/02-logitech-mousepad-g-social-verde.png",
         ],
-        basePrice: 200,
+        basePrice: 237.91,
         categoryId: mousepadsCategory.id,
-        discountPercentage: 5, // 10% discount
+        discountPercentage: 10,
       },
       {
-        name: "Logitech Mousepad Studio Series",
-        slug: "logitech-mousepad-studio-series",
+        name: "Mouse Pad Extra Grande de Tecido Logitech G840 K/DA - Edição Oficial League of Legends KDA",
+        slug: "mouse-pad-extra-grande-de-tecido-logitech-g840-k-da-edicao-oficial-league-of-legends-kda",
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent id malesuada elit, eget vulputate justo. Sed sollicitudin velit dolor, ut gravida odio iaculis a.\nNulla risus justo, tempor eu felis eu, efficitur pulvinar risus. Sed viverra, nisi id egestas convallis, massa lorem convallis magna, vel convallis mi turpis nec ante. Maecenas posuere lacus id gravida dignissim. Morbi sit amet rutrum ex. Duis sit amet sem orci. Morbi non nisl sed mauris mattis ullamcorper quis eget metus.\nUt pellentesque ornare erat, vitae blandit ex pulvinar sit amet. Ut pellentesque lorem at eros vestibulum lobortis. Proin bibendum est facilisis nulla tristique vestibulum. Etiam placerat tortor sit amet lacinia volutpat. Curabitur lectus turpis, faucibus vitae tortor in, lacinia tristique neque.",
         imageUrls: [
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/01_logi-studio-series.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/02_logi-studio-series.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/03_logi-studio-series.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/04_logi-studio-series.png",
+          "https://i.ibb.co/y6Mtj4X/01-logitech-mousepad-g840-kda.png",
+          "https://i.ibb.co/y6Mtj4X/01-logitech-mousepad-g840-kda.png",
         ],
-        basePrice: 250,
+        basePrice: 397.91,
         categoryId: mousepadsCategory.id,
-        discountPercentage: 15, // 10% discount
+        discountPercentage: 15,
       },
       {
-        name: "Force One Skyhawk Dark",
-        slug: "force-one-skyhawk-dark",
+        name: "Mouse Pad Rígido Logitech G440",
+        slug: "mouse-pad-rigido-logitech-g440",
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent id malesuada elit, eget vulputate justo. Sed sollicitudin velit dolor, ut gravida odio iaculis a.\nNulla risus justo, tempor eu felis eu, efficitur pulvinar risus. Sed viverra, nisi id egestas convallis, massa lorem convallis magna, vel convallis mi turpis nec ante. Maecenas posuere lacus id gravida dignissim. Morbi sit amet rutrum ex. Duis sit amet sem orci. Morbi non nisl sed mauris mattis ullamcorper quis eget metus.\nUt pellentesque ornare erat, vitae blandit ex pulvinar sit amet. Ut pellentesque lorem at eros vestibulum lobortis. Proin bibendum est facilisis nulla tristique vestibulum. Etiam placerat tortor sit amet lacinia volutpat. Curabitur lectus turpis, faucibus vitae tortor in, lacinia tristique neque.",
         imageUrls: [
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/01_force-dark.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/02_force-dark.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/03_force-dark.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/04_force-dark.png",
+          "https://i.ibb.co/jv4DQbN/01-logitech-mousepad-g440.png",
+          "https://i.ibb.co/bN313T5/02-logitech-mousepad-g440.png",
+          "https://i.ibb.co/7tzkg54/03-logitech-mousepad-g440.png",
         ],
-        basePrice: 300,
+        basePrice: 100.91,
         categoryId: mousepadsCategory.id,
-        discountPercentage: 10, // 10% discount
+        discountPercentage: 0,
       },
       {
-        name: "Force One Skyhawk Snow",
-        slug: "force-one-skyhawk-snow",
+        name: "Mouse Pad Desk Mat Logitech Studio Series - Cinza",
+        slug: "mouse-pad-desk-mat-logitech-studio-series-cinza",
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent id malesuada elit, eget vulputate justo. Sed sollicitudin velit dolor, ut gravida odio iaculis a.\nNulla risus justo, tempor eu felis eu, efficitur pulvinar risus. Sed viverra, nisi id egestas convallis, massa lorem convallis magna, vel convallis mi turpis nec ante. Maecenas posuere lacus id gravida dignissim. Morbi sit amet rutrum ex. Duis sit amet sem orci. Morbi non nisl sed mauris mattis ullamcorper quis eget metus.\nUt pellentesque ornare erat, vitae blandit ex pulvinar sit amet. Ut pellentesque lorem at eros vestibulum lobortis. Proin bibendum est facilisis nulla tristique vestibulum. Etiam placerat tortor sit amet lacinia volutpat. Curabitur lectus turpis, faucibus vitae tortor in, lacinia tristique neque.",
         imageUrls: [
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/01_force-snow.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/02_force-snow.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/03_force-snow.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/04_force-snow.png",
+          "https://i.ibb.co/HzzchCS/01-logitech-mousepad-desk-mat.png",
+          "https://i.ibb.co/HzzchCS/01-logitech-mousepad-desk-mat.png",
         ],
-        basePrice: 300,
+        basePrice: 157.91,
         categoryId: mousepadsCategory.id,
-        discountPercentage: 5, // 10% discount
+        discountPercentage: 10,
       },
     ];
 
