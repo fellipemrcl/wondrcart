@@ -398,94 +398,94 @@ async function main() {
 
     const monitors = [
       {
-        name: "Dell S2421HN",
-        slug: "dell-s2421hn",
+        name: "Monitor Gamer LG 21.5 LED Full HD, 75Hz, 5ms, HDMI, FreeSync - 22MP410-B",
+        slug: "monitor-gamer-lg-21-5-led-full-hd-75hz-5ms-hdmi-freesync-22mp410-b",
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent id malesuada elit, eget vulputate justo. Sed sollicitudin velit dolor, ut gravida odio iaculis a.\nNulla risus justo, tempor eu felis eu, efficitur pulvinar risus. Sed viverra, nisi id egestas convallis, massa lorem convallis magna, vel convallis mi turpis nec ante. Maecenas posuere lacus id gravida dignissim. Morbi sit amet rutrum ex. Duis sit amet sem orci. Morbi non nisl sed mauris mattis ullamcorper quis eget metus.\nUt pellentesque ornare erat, vitae blandit ex pulvinar sit amet. Ut pellentesque lorem at eros vestibulum lobortis. Proin bibendum est facilisis nulla tristique vestibulum. Etiam placerat tortor sit amet lacinia volutpat. Curabitur lectus turpis, faucibus vitae tortor in, lacinia tristique neque.",
         imageUrls: [
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/01_dell-S2421HN.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/02_dell-S2421HN.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/03_dell-S2421HN.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/04_dell-S2421HN.png",
+          "https://i.ibb.co/dfLrV53/01-monitor-gamer-lg-22-MP410-B.png",
+          "https://i.ibb.co/F5Qq2hG/02-monitor-gamer-lg-22-MP410-B.png",
+          "https://i.ibb.co/FWVQdnC/03-monitor-gamer-lg-22-MP410-B.png",
+          "https://i.ibb.co/XyRVC47/04-monitor-gamer-lg-22-MP410-B.png",
         ],
-        basePrice: 1500,
+        basePrice: 419.99,
         categoryId: monitorsCategory.id,
-        discountPercentage: 15, // 10% discount
+        discountPercentage: 10,
       },
       {
-        name: "Dell P2422H",
-        slug: "dell-p2422h",
+        name: "Monitor Gamer LG UltraGear 27 Full HD, 144Hz, 1ms, IPS, HDMI e DisplayPort, HDR 10, 99% sRGB, FreeSync Premium, VESA - 27GN65R",
+        slug: "monitor-gamer-lg-ultragear-27-full-hd-144hz-1ms-ips-hdmi-e-displayport-hdr-10-99-srgb-freesync-premium-vesa-27gn65r",
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent id malesuada elit, eget vulputate justo. Sed sollicitudin velit dolor, ut gravida odio iaculis a.\nNulla risus justo, tempor eu felis eu, efficitur pulvinar risus. Sed viverra, nisi id egestas convallis, massa lorem convallis magna, vel convallis mi turpis nec ante. Maecenas posuere lacus id gravida dignissim. Morbi sit amet rutrum ex. Duis sit amet sem orci. Morbi non nisl sed mauris mattis ullamcorper quis eget metus.\nUt pellentesque ornare erat, vitae blandit ex pulvinar sit amet. Ut pellentesque lorem at eros vestibulum lobortis. Proin bibendum est facilisis nulla tristique vestibulum. Etiam placerat tortor sit amet lacinia volutpat. Curabitur lectus turpis, faucibus vitae tortor in, lacinia tristique neque.",
         imageUrls: [
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/01_dell-P2422H.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/02_dell-P2422H.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/03_dell-P2422H.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/04_dell-P2422H.png",
+          "https://i.ibb.co/2ZbvC7X/01-monitor-gamer-lg-ultra-Gear-27-GN65-R.png",
+          "https://i.ibb.co/82PZ7Z3/02-monitor-gamer-lg-ultra-Gear-27-GN65-R.png",
+          "https://i.ibb.co/YRPqJ3v/03-monitor-gamer-lg-ultra-Gear-27-GN65-R.png",
+          "https://i.ibb.co/bgC8srf/04-monitor-gamer-lg-ultra-Gear-27-GN65-R.png",
         ],
-        basePrice: 2000,
+        basePrice: 1059.99,
         categoryId: monitorsCategory.id,
-        discountPercentage: 5, // 10% discount
+        discountPercentage: 20,
       },
       {
-        name: "Dell P2723QE",
-        slug: "dell-p2723qe",
+        name: "Monitor Gamer Samsung 24' IPS, 75 Hz, Full HD, FreeSync, HDMI - LF24T350FHLMZD",
+        slug: "monitor-gamer-samsung-24-ips-75-hz-full-hd-freesync-hdmi-lf24t350fhlmzd",
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent id malesuada elit, eget vulputate justo. Sed sollicitudin velit dolor, ut gravida odio iaculis a.\nNulla risus justo, tempor eu felis eu, efficitur pulvinar risus. Sed viverra, nisi id egestas convallis, massa lorem convallis magna, vel convallis mi turpis nec ante. Maecenas posuere lacus id gravida dignissim. Morbi sit amet rutrum ex. Duis sit amet sem orci. Morbi non nisl sed mauris mattis ullamcorper quis eget metus.\nUt pellentesque ornare erat, vitae blandit ex pulvinar sit amet. Ut pellentesque lorem at eros vestibulum lobortis. Proin bibendum est facilisis nulla tristique vestibulum. Etiam placerat tortor sit amet lacinia volutpat. Curabitur lectus turpis, faucibus vitae tortor in, lacinia tristique neque.",
         imageUrls: [
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/01_dell-P2723QE.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/02_dell-P2723QE.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/03_dell-P2723QE.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/04_dell-P2723QE.png",
+          "https://i.ibb.co/029tmyY/01-monitor-gamer-samsung-LF24-T350-FHLMZD.png",
+          "https://i.ibb.co/rQrDzpJ/02-monitor-gamer-samsung-LF24-T350-FHLMZD.png",
+          "https://i.ibb.co/HVnPDWP/03-monitor-gamer-samsung-LF24-T350-FHLMZD.png",
+          "https://i.ibb.co/QvTZynw/04-monitor-gamer-samsung-LF24-T350-FHLMZD.png",
         ],
-        basePrice: 2500,
+        basePrice: 699.99,
         categoryId: monitorsCategory.id,
-        discountPercentage: 0, // 10% discount
+        discountPercentage: 0,
       },
       {
-        name: "Dell S3422DWG",
-        slug: "dell-s3422dwg",
+        name: "Monitor Concórdia Gamer Curvo 27', 100hz, Led Full, Hd, HDMI Vga - Cz270f",
+        slug: "monitor-concordia-gamer-curvo-27-100hz-led-full-hd-hdmi-vga-cz270f",
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent id malesuada elit, eget vulputate justo. Sed sollicitudin velit dolor, ut gravida odio iaculis a.\nNulla risus justo, tempor eu felis eu, efficitur pulvinar risus. Sed viverra, nisi id egestas convallis, massa lorem convallis magna, vel convallis mi turpis nec ante. Maecenas posuere lacus id gravida dignissim. Morbi sit amet rutrum ex. Duis sit amet sem orci. Morbi non nisl sed mauris mattis ullamcorper quis eget metus.\nUt pellentesque ornare erat, vitae blandit ex pulvinar sit amet. Ut pellentesque lorem at eros vestibulum lobortis. Proin bibendum est facilisis nulla tristique vestibulum. Etiam placerat tortor sit amet lacinia volutpat. Curabitur lectus turpis, faucibus vitae tortor in, lacinia tristique neque.",
         imageUrls: [
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/01_dell-S3422DWG.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/02_dell-S3422DWG.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/03_dell-S3422DWG.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/04_dell-S3422DWG.png",
+          "https://i.ibb.co/0fpHktd/01-monitor-conc-rdia-Cz270f.png",
+          "https://i.ibb.co/5Y5wb7G/02-monitor-conc-rdia-Cz270f.png",
+          "https://i.ibb.co/LgL2Y4Z/03-monitor-conc-rdia-Cz270f.png",
+          "https://i.ibb.co/Hq3rmmD/04-monitor-conc-rdia-Cz270f.png",
         ],
-        basePrice: 3200,
+        basePrice: 702.99,
         categoryId: monitorsCategory.id,
-        discountPercentage: 0, // 10% discount
+        discountPercentage: 20,
       },
       {
-        name: "Dell S3222DGM",
-        slug: "dell-s3222dgm",
+        name: "Monitor Gamer AOC 27 Polegadas LED Full HD, 144hz, 1ms, IPS, HDMI, VGA, Display Port, VESA, G-sync - 27g2/bk",
+        slug: "monitor-gamer-aoc-27-polegadas-led-full-hd-144hz-1ms-ips-hdmi-vga-display-port-vesa-g-sync-27g2-bk",
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent id malesuada elit, eget vulputate justo. Sed sollicitudin velit dolor, ut gravida odio iaculis a.\nNulla risus justo, tempor eu felis eu, efficitur pulvinar risus. Sed viverra, nisi id egestas convallis, massa lorem convallis magna, vel convallis mi turpis nec ante. Maecenas posuere lacus id gravida dignissim. Morbi sit amet rutrum ex. Duis sit amet sem orci. Morbi non nisl sed mauris mattis ullamcorper quis eget metus.\nUt pellentesque ornare erat, vitae blandit ex pulvinar sit amet. Ut pellentesque lorem at eros vestibulum lobortis. Proin bibendum est facilisis nulla tristique vestibulum. Etiam placerat tortor sit amet lacinia volutpat. Curabitur lectus turpis, faucibus vitae tortor in, lacinia tristique neque.",
         imageUrls: [
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/01_dell-S3222DGM.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/02_dell-S3222DGM.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/03_dell-S3222DGM.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/04_dell-S3222DGM.png",
+          "https://i.ibb.co/hdgBkvP/01-monitor-gamer-AOC-27-27g2-bk.png",
+          "https://i.ibb.co/XzLW7j4/02-monitor-gamer-AOC-27-27g2-bk.png",
+          "https://i.ibb.co/DL4CMZR/03-monitor-gamer-AOC-27-27g2-bk.png",
+          "https://i.ibb.co/pPR8YjZ/04-monitor-gamer-AOC-27-27g2-bk.png",
         ],
-        basePrice: 3500,
+        basePrice: 899.10,
         categoryId: monitorsCategory.id,
-        discountPercentage: 0, // 10% discount
+        discountPercentage: 20,
       },
       {
-        name: "Dell AW2524HF",
-        slug: "dell-aw2524hf",
+        name: "Monitor Gamer Husky 23.8' LED, Wide, 165 Hz, Full HD, 1ms, Adaptive Sync, HDMI/DisplayPort, VESA - HGMT003",
+        slug: "monitor-gamer-husky-23-8-led-wide-165-hz-full-hd-1ms-adaptive-sync-hdmi-displayport-vesa-hgmt003",
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent id malesuada elit, eget vulputate justo. Sed sollicitudin velit dolor, ut gravida odio iaculis a.\nNulla risus justo, tempor eu felis eu, efficitur pulvinar risus. Sed viverra, nisi id egestas convallis, massa lorem convallis magna, vel convallis mi turpis nec ante. Maecenas posuere lacus id gravida dignissim. Morbi sit amet rutrum ex. Duis sit amet sem orci. Morbi non nisl sed mauris mattis ullamcorper quis eget metus.\nUt pellentesque ornare erat, vitae blandit ex pulvinar sit amet. Ut pellentesque lorem at eros vestibulum lobortis. Proin bibendum est facilisis nulla tristique vestibulum. Etiam placerat tortor sit amet lacinia volutpat. Curabitur lectus turpis, faucibus vitae tortor in, lacinia tristique neque.",
         imageUrls: [
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/01_dell-AW2524HF.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/02_dell-AW2524HF.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/03_dell-AW2524HF.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/04_dell-AW2524HF.png",
+          "https://i.ibb.co/BrMDXmC/01-monitor-gamer-husky-HGMT003.png",
+          "https://i.ibb.co/JKjMxwN/02-monitor-gamer-husky-HGMT003.png",
+          "https://i.ibb.co/9tJWrkh/03-monitor-gamer-husky-HGMT003.png",
+          "https://i.ibb.co/6mKM5rz/04-monitor-gamer-husky-HGMT003.png",
         ],
-        basePrice: 4200,
+        basePrice: 749.99,
         categoryId: monitorsCategory.id,
-        discountPercentage: 10, // 10% discount
+        discountPercentage: 10,
       },
     ];
 
@@ -503,94 +503,91 @@ async function main() {
 
     const speakers = [
       {
-        name: "Logitech Surround Sound Z607",
-        slug: "logitech-surround-sound-z607",
+        name: "Caixa Acústica Bookshelf Klipsch Ebony, 85/340W RMS - R-15M",
+        slug: "caixa-acustica-bookshelf-klipsch-ebony-85-340w-rms-r-15m",
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent id malesuada elit, eget vulputate justo. Sed sollicitudin velit dolor, ut gravida odio iaculis a.\nNulla risus justo, tempor eu felis eu, efficitur pulvinar risus. Sed viverra, nisi id egestas convallis, massa lorem convallis magna, vel convallis mi turpis nec ante. Maecenas posuere lacus id gravida dignissim. Morbi sit amet rutrum ex. Duis sit amet sem orci. Morbi non nisl sed mauris mattis ullamcorper quis eget metus.\nUt pellentesque ornare erat, vitae blandit ex pulvinar sit amet. Ut pellentesque lorem at eros vestibulum lobortis. Proin bibendum est facilisis nulla tristique vestibulum. Etiam placerat tortor sit amet lacinia volutpat. Curabitur lectus turpis, faucibus vitae tortor in, lacinia tristique neque.",
         imageUrls: [
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/01_logi-surround-z607.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/02_logi-surround-z607.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/03_logi-surround-z607.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/04_logi-surround-z607.png",
+          "https://i.ibb.co/rwDGcRm/01-caixa-acustica-bookshelf-klipsch-ebony-85-340w-rms-r-15m.png",
+          "https://i.ibb.co/QnLjtyH/02-caixa-acustica-bookshelf-klipsch-ebony-85-340w-rms-r-15m.png",
+          "https://i.ibb.co/vqfMRRD/03-caixa-acustica-bookshelf-klipsch-ebony-85-340w-rms-r-15m.png",
+          "https://i.ibb.co/wYHt01F/04-caixa-acustica-bookshelf-klipsch-ebony-85-340w-rms-r-15m.png",
         ],
-        basePrice: 1200,
+        basePrice: 1399.99,
         categoryId: speakersCategory.id,
-        discountPercentage: 5, // 10% discount
+        discountPercentage: 20,
       },
       {
-        name: "Logitech Dock",
-        slug: "logitech-dock",
+        name: "Caixa de Som com Subwoofer Edifier S350DB, Bluetooth, 150W RMS, Madeira",
+        slug: "caixa-de-som-com-subwoofer-edifier-s350db-bluetooth-150w-rms-madeira",
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent id malesuada elit, eget vulputate justo. Sed sollicitudin velit dolor, ut gravida odio iaculis a.\nNulla risus justo, tempor eu felis eu, efficitur pulvinar risus. Sed viverra, nisi id egestas convallis, massa lorem convallis magna, vel convallis mi turpis nec ante. Maecenas posuere lacus id gravida dignissim. Morbi sit amet rutrum ex. Duis sit amet sem orci. Morbi non nisl sed mauris mattis ullamcorper quis eget metus.\nUt pellentesque ornare erat, vitae blandit ex pulvinar sit amet. Ut pellentesque lorem at eros vestibulum lobortis. Proin bibendum est facilisis nulla tristique vestibulum. Etiam placerat tortor sit amet lacinia volutpat. Curabitur lectus turpis, faucibus vitae tortor in, lacinia tristique neque.",
         imageUrls: [
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/01_logi-dock.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/02_logi-dock.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/03_logi-dock.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/04_logi-dock.png",
+          "https://i.ibb.co/6BX4tyP/01-caixa-de-som-com-subwoofer-edifier-s350db.png",
+          "https://i.ibb.co/0JF2xHp/02-caixa-de-som-com-subwoofer-edifier-s350db.png",
+          "https://i.ibb.co/b39bPQ9/03-caixa-de-som-com-subwoofer-edifier-s350db.png",
+          "https://i.ibb.co/sgQ7NxD/04-caixa-de-som-com-subwoofer-edifier-s350db.png",
         ],
-        basePrice: 4500,
+        basePrice: 2299.99,
         categoryId: speakersCategory.id,
-        discountPercentage: 15, // 10% discount
+        discountPercentage: 20,
       },
       {
-        name: "Sony SA-Z9R Speakers",
-        slug: "sony-sa-z9r-speakers",
+        name: "Caixa de Som Hercules DJ Monitor 32, 15W RMS, Preto - 4780962",
+        slug: "caixa-de-som-hercules-dj-monitor-32-15w-rms-preto-4780962",
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent id malesuada elit, eget vulputate justo. Sed sollicitudin velit dolor, ut gravida odio iaculis a.\nNulla risus justo, tempor eu felis eu, efficitur pulvinar risus. Sed viverra, nisi id egestas convallis, massa lorem convallis magna, vel convallis mi turpis nec ante. Maecenas posuere lacus id gravida dignissim. Morbi sit amet rutrum ex. Duis sit amet sem orci. Morbi non nisl sed mauris mattis ullamcorper quis eget metus.\nUt pellentesque ornare erat, vitae blandit ex pulvinar sit amet. Ut pellentesque lorem at eros vestibulum lobortis. Proin bibendum est facilisis nulla tristique vestibulum. Etiam placerat tortor sit amet lacinia volutpat. Curabitur lectus turpis, faucibus vitae tortor in, lacinia tristique neque.",
         imageUrls: [
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/01_sony-SA-Z9R.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/02_sony-SA-Z9R.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/03_sony-SA-Z9R.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/04_sony-SA-Z9R.png",
+          "https://i.ibb.co/XZVqrfx/01-caixa-de-som-hercules-dj-monitor.png",
+          "https://i.ibb.co/wzp7hkh/02-caixa-de-som-hercules-dj-monitor.png",
+          "https://i.ibb.co/F7HnR2Z/03-caixa-de-som-hercules-dj-monitor.png",
         ],
-        basePrice: 4000,
+        basePrice: 400.99,
         categoryId: speakersCategory.id,
-        discountPercentage: 10, // 10% discount
+        discountPercentage: 10,
       },
       {
-        name: "Sony XB43 Extra Bass",
-        slug: "sony-xb43-extra-bass",
+        name: "Caixa De Som Logitech Z313 Sistema 980-000413 50w - Bivolt",
+        slug: "caixa-de-som-logitech-z313-sistema-980-000413-50w-bivolt",
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent id malesuada elit, eget vulputate justo. Sed sollicitudin velit dolor, ut gravida odio iaculis a.\nNulla risus justo, tempor eu felis eu, efficitur pulvinar risus. Sed viverra, nisi id egestas convallis, massa lorem convallis magna, vel convallis mi turpis nec ante. Maecenas posuere lacus id gravida dignissim. Morbi sit amet rutrum ex. Duis sit amet sem orci. Morbi non nisl sed mauris mattis ullamcorper quis eget metus.\nUt pellentesque ornare erat, vitae blandit ex pulvinar sit amet. Ut pellentesque lorem at eros vestibulum lobortis. Proin bibendum est facilisis nulla tristique vestibulum. Etiam placerat tortor sit amet lacinia volutpat. Curabitur lectus turpis, faucibus vitae tortor in, lacinia tristique neque.",
         imageUrls: [
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/01_sony-extra-bass.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/02_sony-extra-bass.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/03_sony-extra-bass.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/04_sony-extra-bass.png",
+          "https://i.ibb.co/2KGWJhC/01-caixa-de-som-logitech-z313.png",
+          "https://i.ibb.co/GxVL0YJ/02-caixa-de-som-logitech-z313.png",
+          "https://i.ibb.co/B3PPvRN/03-caixa-de-som-logitech-z313.png",
         ],
-        basePrice: 3200,
+        basePrice: 400.99,
         categoryId: speakersCategory.id,
-        discountPercentage: 0, // 10% discount
+        discountPercentage: 0,
       },
       {
-        name: "Sony XB23 Extra Bass",
-        slug: "sony-xb23-extra-bass",
+        name: "Caixas De Som JBL, Control 1 Pro, Profissional 2-vias, 150w, 4 Ohms - Branco",
+        slug: "caixas-de-som-jbl-control-1-pro-profissional-2-vias-150w-4-ohms-branco",
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent id malesuada elit, eget vulputate justo. Sed sollicitudin velit dolor, ut gravida odio iaculis a.\nNulla risus justo, tempor eu felis eu, efficitur pulvinar risus. Sed viverra, nisi id egestas convallis, massa lorem convallis magna, vel convallis mi turpis nec ante. Maecenas posuere lacus id gravida dignissim. Morbi sit amet rutrum ex. Duis sit amet sem orci. Morbi non nisl sed mauris mattis ullamcorper quis eget metus.\nUt pellentesque ornare erat, vitae blandit ex pulvinar sit amet. Ut pellentesque lorem at eros vestibulum lobortis. Proin bibendum est facilisis nulla tristique vestibulum. Etiam placerat tortor sit amet lacinia volutpat. Curabitur lectus turpis, faucibus vitae tortor in, lacinia tristique neque.",
         imageUrls: [
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/01_sony-XB23.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/02_sony-XB23.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/03_sony-XB23.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/04_sony-XB23.png",
+          "https://i.ibb.co/SJHcvTy/01-caixas-de-som-jbl-control-1-pro.png",
+          "https://i.ibb.co/X7v1fGQ/02-caixas-de-som-jbl-control-1-pro.png",
+          "https://i.ibb.co/DKWD1qF/03-caixas-de-som-jbl-control-1-pro.png",
+          "https://i.ibb.co/1mzjHQB/04-caixas-de-som-jbl-control-1-pro.png",
         ],
-        basePrice: 3500,
+        basePrice: 1603.99,
         categoryId: speakersCategory.id,
-        discountPercentage: 0, // 10% discount
+        discountPercentage: 20,
       },
       {
-        name: "Sony HT-S200F Soundbar",
-        slug: "sony-ht-s200f-soundbar",
+        name: "Caixa de Som Portátil Edifier R1080BT, 24W, Bluetooth - R1080 BT",
+        slug: "caixa-de-som-portatil-edifier-r1080bt-24w-bluetooth-r1080-bt",
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent id malesuada elit, eget vulputate justo. Sed sollicitudin velit dolor, ut gravida odio iaculis a.\nNulla risus justo, tempor eu felis eu, efficitur pulvinar risus. Sed viverra, nisi id egestas convallis, massa lorem convallis magna, vel convallis mi turpis nec ante. Maecenas posuere lacus id gravida dignissim. Morbi sit amet rutrum ex. Duis sit amet sem orci. Morbi non nisl sed mauris mattis ullamcorper quis eget metus.\nUt pellentesque ornare erat, vitae blandit ex pulvinar sit amet. Ut pellentesque lorem at eros vestibulum lobortis. Proin bibendum est facilisis nulla tristique vestibulum. Etiam placerat tortor sit amet lacinia volutpat. Curabitur lectus turpis, faucibus vitae tortor in, lacinia tristique neque.",
         imageUrls: [
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/01_sony-S200F.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/02_sony-S200F.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/03_sony-S200F.png",
-          "https://fsw-store.s3.sa-east-1.amazonaws.com/04_sony-S200F.png",
+          "https://i.ibb.co/8rzS8GC/01-caixa-de-som-portatil-edifier-r1080bt.png",
+          "https://i.ibb.co/b6dKB4G/02-caixa-de-som-portatil-edifier-r1080bt.png",
+          "https://i.ibb.co/W63Jj6H/03-caixa-de-som-portatil-edifier-r1080bt.png",
         ],
-        basePrice: 2500,
+        basePrice: 719.99,
         categoryId: speakersCategory.id,
-        discountPercentage: 0, // 10% discount
+        discountPercentage: 20,
       },
     ];
 
