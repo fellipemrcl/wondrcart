@@ -392,7 +392,7 @@ async function main() {
       data: {
         name: "Monitores",
         slug: "monitors",
-        imageUrl: "https://fsw-store.s3.sa-east-1.amazonaws.com/monitors.png",
+        imageUrl: "https://i.ibb.co/VBF6ZVb/monitor-category.png",
       },
     });
 
@@ -497,7 +497,7 @@ async function main() {
       data: {
         name: "Speakers",
         slug: "speakers",
-        imageUrl: "https://fsw-store.s3.sa-east-1.amazonaws.com/speakers.png",
+        imageUrl: "https://i.ibb.co/4JmhNwp/speakers-category.png",
       },
     });
 
