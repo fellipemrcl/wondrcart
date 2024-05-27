@@ -36,12 +36,13 @@ export const CartContext = createContext<ICartContext>({
 });
 
 const CartProvider = ({ children }: { children: ReactNode }) => {
-  const [products, setProducts] = useState<CartProduct[]>(
-    JSON.parse(localStorage.getItem("wondrcart-cart-products") || "[]"),
-  );
+  const [products, setProducts] = useState<CartProduct[]>(() => {
+    const cart = localStorage.getItem("cart");
+    return cart ? JSON.parse(cart) : [];
+  });
 
   useEffect(() => {
-    localStorage.setItem("wondrcart-cart-products", JSON.stringify(products));
+    localStorage.setItem("cart", JSON.stringify(products));
   }, [products]);
 
   const subtotal = useMemo(() => {
